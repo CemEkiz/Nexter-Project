@@ -36,7 +36,9 @@ body {
 	line-height: 1.6;
 }
 
-// Ce container correspond au layout général de toute la page avec CSS Grid
+////////// Objectif de cette section //////////
+// Créer layout complexe et moderne en utilisant CSS Grid
+// Choisir entre différentes tailles de tracks selon le contenu du site web
 .container {
 	display: grid;
 	grid-template-rows: 80vh min-content 40vw repeat(3, min-content);

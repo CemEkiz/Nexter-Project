@@ -1,11 +1,64 @@
+////////// Objectif de cette section : //////////
+// Comment s'y prendre avec les Grid-Items qui overlap
+// Pourquoi les images sont spéciales et se comportent différements des autres Grid-Items
+// Comment décider si Flexbox est plus pertinent selon la situation
+// L'utilisation de l'unité "vw"
+
 .story {
 	&-pictures {
 		background-color: $color-primary;
 		grid-column: full-start / col-end 4;
+		display: grid;
+		grid-template-rows: repeat(6, 1fr);
+		grid-template-columns: repeat(6, 1fr);
+		align-items: center;
+		background-image: linear-gradient(
+				rgba($color-primary, 0.5),
+				rgba($color-primary, 0.5)
+			),
+			url(../img/back.jpg);
+	}
+
+	&__img--1 {
+		width: 100%;
+		grid-row: 2 / 6;
+		grid-column: 2 / 6;
+		box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
+	}
+
+	&__img--2 {
+		width: 115%;
+		z-index: 20;
+		grid-row: 4 / 6;
+		grid-column: 4 / 7;
+		box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+		// transform: translate(10%, 5%);
 	}
 
 	&-content {
 		background-color: $color-grey-light-1;
 		grid-column: col-start 5 / full-end;
+		padding: 6rem 8vw;
+
+		// Solution 1 : Flexbox -> c'est la solution la plus logique qui nous vient à l'esprit pour le one-dimensional layout !
+		/*
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		*/
+
+		// Solution 2 : Grid -> c'est contre-intuitif pour le one-dimensional layout mais ça fonctionne quand même.
+		// Cela permet aussi de rester cohérent en utilisant Grid du début à la fin
+		// Mais il n'y a aucun problème pour mixer l'utilisation de Grid et Flexbox !
+		display: grid;
+		align-content: center;
+		justify-items: start;
+	}
+
+	&__text {
+		font-size: 1.6rem;
+		font-style: italic;
+		margin-bottom: 4rem;
 	}
 }
