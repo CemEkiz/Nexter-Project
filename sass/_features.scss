@@ -5,9 +5,7 @@
 
 .features {
 	grid-column: center-start / center-end;
-
 	margin: 15rem 0;
-
 	display: grid;
 	grid-gap: 6rem;
 
@@ -17,7 +15,9 @@
 	// On crée 3 colonnes divisés en 3 fractions
 	// Pas besoin de définir une 2ème row, elle se créera automatiquement en implicit grid
 	// Le problème, c'est que ce n'est pas responsive
-	// grid-template-columns: repeat(3, 1fr);
+	/*
+	grid-template-columns: repeat(3, 1fr);
+	*/
 
 	// Dans ce cas figure, c'est responsive, en rétrécissant la page, les 3 colonnes vont se transformer en 2 colonnes puis 1 colonne !
 	// Explication : On définit auto-fit pour chaque grid-item, et la taille de chacun d'eux se situera entre 250px et 1 fraction (1 fraction = elle occupera toute la largeur dispo, 250px = quand ils seront atteint on passe en mode 2-colonne ou 1-colonne en occupant entre 250px et 1fr
@@ -39,7 +39,6 @@
 		width: 4.5rem;
 		height: 4.5rem;
 		transform: translateY(-1rem);
-
 		grid-row: 1 / span 2;
 	}
 
