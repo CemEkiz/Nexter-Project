@@ -1,15 +1,15 @@
-# Nexter
+<div align="center">
 
-A modern and responsive website for a real estate agency specalised in luxury property
+  <h1>Nexter</h1>
+  <p>An awesome README template to jumpstart your projects!</p>
+  <h2><a href="https://github.com/othneildrew/Best-README-Template">Link to the Website</a></h2>
+  <img src="showcase.png" />
+</div>
 
-## 🔗 [Link to the website](https://nexter-cem.netlify.app/)
+## Built With
 
-![Showcase - Nexter](showcase.png?raw=true 'Showcase - Nexter')
-
-## Toolbox
-
-- HTML & Sass
-- Parcel
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
 ## Features
 
