@@ -4,7 +4,7 @@ A modern and responsive website for a real estate agency specalised in luxury pr
 
 ## 🔗 [Link to the website](https://nexter-cem.netlify.app/)
 
-![Showcase - Nexter](showcase1.png?raw=true 'Showcase - Nexter')
+![Showcase - Nexter](showcase.png?raw=true 'Showcase - Nexter')
 
 ## Toolbox
 
