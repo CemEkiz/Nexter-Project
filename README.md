@@ -1,9 +1,11 @@
 <div align="center">
-
-  <h1>Nexter</h1>
-  <p>An awesome README template to jumpstart your projects!</p>
-  <h2><a href="https://github.com/othneildrew/Best-README-Template">Link to the Website</a></h2>
-  <img src="showcase.png" />
+  <p align=center>
+    <h1>Nexter</h1>
+    <br />
+    <p>A modern and responsive website for a real estate agency specalised in luxury property</p>
+    <h3><a href="">🔗 Link to the Website</a></h2>
+    <img src="showcase.png" />
+  </p>
 </div>
 
 ## Built With
