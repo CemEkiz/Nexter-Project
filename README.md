@@ -2,7 +2,7 @@
   <p align=center>
     <h1>Nexter</h1>
     <br />
-    <p>A modern and responsive website for a real estate agency specalised in luxury property</p>
+    <p>A modern and responsive website for a real estate agency specialized in luxury property</p>
     <h3><a href="">🔗 Link to the Website</a></h2>
     <img src="showcase.png" />
   </p>
@@ -18,3 +18,6 @@
 - Advanced CSS Grid Tricks
 - Luxury and Professional Design
 - Responsive Website
+
+## Context of the project
+This is a part of a Front-End Dev Course that i've completed on Udemy
